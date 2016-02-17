@@ -11,6 +11,7 @@ do
 	let len=len-1
 done
 clear
+echo "String is $str"
 echo "Reverse is $rev"
 if [ 	"$str" == "$rev" ]
 then 
